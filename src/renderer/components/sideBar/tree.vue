@@ -21,6 +21,7 @@
       </a>
     </div>
     <!-- opened files -->
+    <!--
     <div class="opened-files">
       <div class="title">
         <svg class="icon" aria-hidden="true">
@@ -48,6 +49,7 @@
         </transition-group>
       </div>
     </div>
+    -->
     <!-- project tree view -->
     <div 
       class="project-tree" v-if="projectTree"
