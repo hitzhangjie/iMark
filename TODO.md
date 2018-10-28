@@ -6,4 +6,7 @@
    - If right border not displayed, users may felt confused where's the border between the project tree and the editor area. Besides, Displaying the border make it easier for positioning the mouse cursor to drag/adjust the sidebar width.
 3. Sidebar `open folder` svg icon
    - change it from `icon-create-project` to `icon-folder-open`, the former icon's meaning is more likely to create a new document rather than open a folder.
-4. Others
+4. Auto save files when close file by cmd+w shortcut or click close tab. 
+   - Popup the dialog to ask for save is useless, unless it shows the content changes. Why not leave it to the Git version control system to control this? I don't need it, I always need it saved.
+5. Don't automatically create a blank file `Untitled-1/2/3/4` file when create new blank window.
+6.  Others
