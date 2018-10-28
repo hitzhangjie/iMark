@@ -166,6 +166,15 @@
           e.dataTransfer.dropEffect = 'none'
         }
       }, false)
+
+      var sidebar = document.getElementsByClassName('right-column')[0]
+      sidebar.onmouseenter = function () {
+        sidebar.borderRightStyle = 'solid'
+        sidebar.borderWidth = 'thin'
+      }
+      sidebar.onmouseleave = function () {
+        sidebar.borderRightStyle = 'none'
+      }
     }
   }
 </script>

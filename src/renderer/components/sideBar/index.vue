@@ -200,7 +200,16 @@
     flex: 1;
     width: calc(100% - 50px);
     overflow: hidden;
+    border-right-style: solid;
+    border-width: thin;
   }
+  
+  /*
+  .right-column:hover {
+    border-right-style: solid;
+    border-width: thin;
+  }*/
+
   .drag-bar {
     position: absolute;
     top: 0;

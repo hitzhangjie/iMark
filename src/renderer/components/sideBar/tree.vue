@@ -94,7 +94,8 @@
     <div v-else class="open-project">
       <a href="javascript:;" @click="openProject" title="Open Folder">
         <svg class="icon" aria-hidden="true">
-          <use xlink:href="#icon-create-project"></use>
+          <!--<use xlink:href="#icon-create-project"></use>-->
+          <use xlink:href="#icon-folder-open"></use>
         </svg>
       </a>
     </div>
