@@ -40,7 +40,7 @@
   .side-bar-toc {
     height: calc(100% - 35px);
     margin: 0;
-    margin-top: 35px;
+    margin-top: 13px;
     padding: 0;
     list-style: none;
     overflow: scroll;

@@ -2,10 +2,10 @@
     <div class="side-bar-search"
       :class="theme"
     >
-      <div class="search-wrapper">
+      <div class="search-wrapper" style="margin-top:8px;margin-bottom:20px;">
         <input
           type="text" v-model="keyword"
-          placeholder="Search in project..."
+          placeholder="Search ..."
           @keyup="search"
         >
         <svg class="icon" aria-hidden="true">
