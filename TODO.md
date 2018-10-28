@@ -8,5 +8,5 @@
    - change it from `icon-create-project` to `icon-folder-open`, the former icon's meaning is more likely to create a new document rather than open a folder.
 4. Auto save files when close file by cmd+w shortcut or click close tab. 
    - Popup the dialog to ask for save is useless, unless it shows the content changes. Why not leave it to the Git version control system to control this? I don't need it, I always need it saved.
-5. Don't automatically create a blank file `Untitled-1/2/3/4` file when create new blank window.
-6.  Others
+5. Adjust the sidebar UI, especially div margins, to make it more nice.
+6.  
