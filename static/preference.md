@@ -20,7 +20,7 @@ Edit and save to update preferences. You can only change the JSON below!
   "darkColor": "rgb(217, 217, 217)",
   "lineHeight": "1.6",
   "theme": "light",
-  "autoSave": false,
+  "autoSave": true,
   "aidou": false,
   "preferLooseListItem": true,
   "bulletListMarker": "-",

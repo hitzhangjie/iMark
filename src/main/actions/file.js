@@ -72,7 +72,7 @@ const handleResponseForSave = (e, { id, markdown, pathname, options }) => {
 
 const showUnsavedFilesMessage = (win, files) => {
   return new Promise((resolve, reject) => {
-    /* dialog.showMessageBox(win, {
+    dialog.showMessageBox(win, {
       type: 'warning',
       buttons: ['Save', 'Cancel', 'Don\'t save'],
       defaultId: 0,
@@ -91,8 +91,7 @@ const showUnsavedFilesMessage = (win, files) => {
           })
           break
       }
-    }) */
-    resolve({ needSave: true })
+    })
   })
 }
 const noticePandocNotFound = win => {

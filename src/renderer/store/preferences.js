@@ -9,7 +9,7 @@ const state = {
   lineHeight: 1.6,
   lightColor: '#303133', // color in light theme
   darkColor: 'rgb(217, 217, 217)', // color in dark theme
-  autoSave: false,
+  autoSave: true,
   preferLooseListItem: true, // prefer loose or tight list items
   bulletListMarker: '-',
   autoPairBracket: true,
