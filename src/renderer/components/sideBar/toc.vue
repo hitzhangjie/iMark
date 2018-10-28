@@ -43,7 +43,7 @@
     margin-top: 13px;
     padding: 0;
     list-style: none;
-    overflow: scroll;
+    overflow: auto;
     & > li {
       font-size: 14px;
       margin-bottom: 15px;
