@@ -1,6 +1,7 @@
 <template>
   <div class="tree-view">
-    <div class="title">
+    <div class="title" style="height:5px;margin-top:5px;">
+      <!--
       <a
         href="javascript:;"
         :class="{'active': active === 'tree'}"
@@ -19,6 +20,7 @@
           <use xlink:href="#icon-list"></use>
         </svg>        
       </a>
+      -->
     </div>
     <!-- opened files -->
     <!--
@@ -60,9 +62,11 @@
         </svg>
         <span class="text-overflow">{{ projectTree.name }}</span>
       </div>
+      <!-- tree view -->
       <div class="tree-wrapper" v-show="active === 'tree'">
         <folder
-          v-for="(folder, index) of projectTree.folders" :key="index + 'folder'"
+          v-for="(folder, index) of projectTree.folders" 
+          :key="index + 'folder'"
           :folder="folder"
           :depth="depth"
         ></folder>
@@ -83,13 +87,16 @@
           <a href="javascript:;" @click.stop="createFile">Create File</a>
         </div>
       </div>
-      <div v-show="active === 'list'" class="list-wrapper">
+      <!-- list view -->
+      <!--
+      <div class="list-wrapper" v-show="active === 'list'">
         <list-file
           v-for="(file, index) of fileList"
           :key="index"
           :file="file"
         ></list-file>
       </div>
+      -->
     </div>
     <div v-else class="open-project">
       <a href="javascript:;" @click="openProject" title="Open Folder">
